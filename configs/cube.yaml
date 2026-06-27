@@ -1,0 +1,5 @@
+object_shape: cube
+total_timesteps_sac: 10000
+total_timesteps_ppo: 10000
+eval_episodes: 10
+max_episode_steps: 200

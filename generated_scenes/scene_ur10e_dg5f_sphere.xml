@@ -1,0 +1,59 @@
+<mujoco model="ur10e_dg5f_grasp_task">
+  <include file="/Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/tesollo_dg5f_mujoco-main/robot/ur10edg5f.xml"/>
+
+  <compiler meshdir="/Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/tesollo_dg5f_mujoco-main/robot/assets" angle="radian" autolimits="true"/>
+
+  <option integrator="RK4" timestep="0.001">
+    <flag multiccd="enable" nativeccd="enable"/>
+  </option>
+
+  <statistic center="-0.15 -0.55 0.20" extent="0.80"/>
+
+  <default>
+    <default class="collision_obj">
+      <geom condim="4" contype="5" conaffinity="1" priority="1"
+            solref="0.001 1.5" solimp="0.9 0.95 0.001"
+            friction="1 1 0.005"/>
+    </default>
+  </default>
+
+  <visual>
+    <headlight diffuse="0.8 0.8 0.8" ambient="0.25 0.25 0.25" specular="0 0 0"/>
+    <global azimuth="145" elevation="-24"/>
+  </visual>
+
+  <asset>
+    <texture type="skybox" builtin="gradient" rgb1="0.3 0.5 0.7"
+             rgb2="0 0 0" width="512" height="3072"/>
+    <texture type="2d" name="groundplane" builtin="checker" mark="edge"
+             rgb1="0.2 0.3 0.4" rgb2="0.1 0.2 0.3"
+             markrgb="0.8 0.8 0.8" width="300" height="300"/>
+    <material name="groundplane" texture="groundplane" texuniform="true"
+              texrepeat="5 5" reflectance="0.2"/>
+  </asset>
+
+  <worldbody>
+    <light pos="0 0 1.5" dir="0 0 -1" directional="false"/>
+    <geom name="floor" size="0 0 0.05" type="plane" material="groundplane"/>
+
+    <body name="table" pos="-0.05 -0.60 0.075">
+      <geom name="table_geom" type="box" size="0.55 0.35 0.075"
+            rgba="0.8 0.8 0.8 1" class="collision_obj"/>
+      <geom name="target_area" type="box" pos="-0.10 0.05 0.076"
+            size="0.16 0.16 0.001" rgba="0.6 0.4 0.2 1.0"
+            contype="0" conaffinity="0"/>
+    </body>
+
+    <body name="grasp_object"
+          pos="-0.15 -0.55 0.2"
+          quat="1 0 0 0">
+      <freejoint name="grasp_object_joint"/>
+      <geom name="grasp_object_geom" type="sphere" size="0.025" mass="0.15" rgba="0.10 0.25 0.90 1" class="collision_obj"/>
+    </body>
+
+    <camera name="cam_front" pos="-0.15 -1.20 0.45"
+            quat="0.819134 0.573602 0 0" fovy="45"/>
+    <camera name="cam_side" pos="0.45 -0.75 0.45"
+            quat="0.729512 0.472006 0.297701 0.395471" fovy="45"/>
+  </worldbody>
+</mujoco>

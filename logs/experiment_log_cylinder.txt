@@ -1,0 +1,94 @@
+[2026-06-21 03:54:23] Сохранен полный pre-flight отчет: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/preflight_reports/preflight_report_cube.csv
+[2026-06-21 03:54:29] Сохранена конфигурация эксперимента: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/configs/config_cube.json
+[2026-06-21 03:55:07] Сохранен полный pre-flight отчет: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/preflight_reports/preflight_report_cube.csv
+[2026-06-21 03:55:07] Начат эксперимент для объекта cube; preflight=/Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/preflight_reports/preflight_report_cube.csv
+[2026-06-21 16:43:13] SAC обучен за 14289.837 сек.; модель сохранена: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/checkpoints/sac_ur10e_dg5f_cube.zip
+[2026-06-21 20:00:21] PPO обучен за 9900.074 сек.; модель сохранена: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/checkpoints/ppo_ur10e_dg5f_cube.zip
+[2026-06-21 20:03:50] Сохранена итоговая таблица метрик: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/results/sac_vs_ppo_metrics_ur10e_dg5f.csv
+[2026-06-21 20:03:50] Сохранена конфигурация эксперимента: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/configs/last_experiment_config.json
+[2026-06-21 20:03:50] Сохранен текстовый отчет метрик: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/logs/metrics_summary.txt
+[2026-06-21 20:03:50] Сохранены графики метрик: 8 файлов
+[2026-06-21 22:20:29] Сохранен полный pre-flight отчет: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/preflight_reports/preflight_report_cube.csv
+[2026-06-21 22:20:39] Сохранена конфигурация эксперимента: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/configs/config_cube.json
+[2026-06-21 22:21:06] Сохранен полный pre-flight отчет: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/preflight_reports/preflight_report_cube.csv
+[2026-06-21 22:21:06] Начат эксперимент для объекта cube; preflight=/Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/preflight_reports/preflight_report_cube.csv
+[2026-06-21 22:21:09] SAC обучен за 3.114 сек.; модель сохранена: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/checkpoints/sac_ur10e_dg5f_cube.zip
+[2026-06-21 22:22:48] PPO обучен за 67.979 сек.; модель сохранена: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/checkpoints/ppo_ur10e_dg5f_cube.zip
+[2026-06-21 22:23:18] Сохранена итоговая таблица метрик: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/results/sac_vs_ppo_metrics_ur10e_dg5f.csv
+[2026-06-21 22:23:18] Сохранена конфигурация эксперимента: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/configs/last_experiment_config.json
+[2026-06-21 22:23:18] Сохранен текстовый отчет метрик: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/logs/metrics_summary.txt
+[2026-06-21 22:23:19] Сохранены графики метрик: 8 файлов
+[2026-06-21 23:07:19] Сохранен полный pre-flight отчет: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/preflight_reports/preflight_report_cube.csv
+[2026-06-21 23:09:06] Сохранена конфигурация эксперимента: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/configs/config_cube.json
+[2026-06-21 23:09:42] Сохранен полный pre-flight отчет: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/preflight_reports/preflight_report_cube.csv
+[2026-06-21 23:09:42] Начат эксперимент для объекта cube; preflight=/Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/preflight_reports/preflight_report_cube.csv
+[2026-06-21 23:09:42] SAC продолжает обучение из checkpoint: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/checkpoints/sac_ur10e_dg5f_cube.zip
+[2026-06-21 23:09:49] SAC обучен/дообучен за 7.552 сек.; модель сохранена: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/checkpoints/sac_ur10e_dg5f_cube_continued.zip
+[2026-06-21 23:13:39] PPO продолжает обучение из checkpoint: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/checkpoints/ppo_ur10e_dg5f_cube.zip
+[2026-06-21 23:13:40] PPO обучен/дообучен за 0.146 сек.; модель сохранена: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/checkpoints/ppo_ur10e_dg5f_cube_continued.zip
+[2026-06-21 23:15:03] Сохранен полный pre-flight отчет: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/preflight_reports/preflight_report_cube.csv
+[2026-06-21 23:15:52] Сохранен полный pre-flight отчет: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/preflight_reports/preflight_report_cube.csv
+[2026-06-21 23:16:20] Сохранен полный pre-flight отчет: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/preflight_reports/preflight_report_cylinder.csv
+[2026-06-21 23:16:47] Сохранен полный pre-flight отчет: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/preflight_reports/preflight_report_sphere.csv
+[2026-06-21 23:17:19] Сохранена итоговая таблица метрик: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/results/sac_vs_ppo_metrics_ur10e_dg5f.csv
+[2026-06-21 23:17:19] Сохранена конфигурация эксперимента: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/configs/last_experiment_config.json
+[2026-06-21 23:17:19] Сохранен текстовый отчет метрик: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/logs/metrics_summary.txt
+[2026-06-21 23:17:20] Сохранены графики метрик: 8 файлов
+[2026-06-22 00:00:39] Сохранен полный pre-flight отчет: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/preflight_reports/preflight_report_cube.csv
+[2026-06-22 00:12:25] Сохранен полный pre-flight отчет: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/preflight_reports/preflight_report_cube.csv
+[2026-06-22 00:12:43] Сохранен полный pre-flight отчет: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/preflight_reports/preflight_report_cube.csv
+[2026-06-22 00:15:54] Сохранена конфигурация эксперимента: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/configs/config_cube.json
+[2026-06-22 00:16:22] Сохранен полный pre-flight отчет: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/preflight_reports/preflight_report_cube.csv
+[2026-06-22 00:16:22] Начат эксперимент для объекта cube; preflight=/Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/preflight_reports/preflight_report_cube.csv
+[2026-06-22 00:16:23] SAC начинает обучение с нуля
+[2026-06-22 00:16:26] SAC обучен/дообучен за 3.224 сек.; модель сохранена: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/checkpoints/sac_ur10e_dg5f_cube.zip
+[2026-06-22 00:16:42] Сохранен полный pre-flight отчет: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/preflight_reports/preflight_report_cube.csv
+[2026-06-22 00:16:57] PPO начинает обучение с нуля
+[2026-06-22 00:17:10] Сохранен полный pre-flight отчет: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/preflight_reports/preflight_report_cylinder.csv
+[2026-06-22 00:17:36] Сохранен полный pre-flight отчет: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/preflight_reports/preflight_report_sphere.csv
+[2026-06-22 00:18:05] PPO обучен/дообучен за 68.414 сек.; модель сохранена: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/checkpoints/ppo_ur10e_dg5f_cube.zip
+[2026-06-22 00:18:36] Сохранена итоговая таблица метрик: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/results/sac_vs_ppo_metrics_ur10e_dg5f.csv
+[2026-06-22 00:18:36] Сохранена конфигурация эксперимента: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/configs/last_experiment_config.json
+[2026-06-22 00:18:36] Сохранен текстовый отчет метрик: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/logs/metrics_summary.txt
+[2026-06-22 00:18:36] Сохранены графики метрик: 8 файлов
+[2026-06-22 00:25:32] Сохранен полный pre-flight отчет: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/preflight_reports/preflight_report_cube.csv
+[2026-06-22 00:49:34] Сохранен полный pre-flight отчет: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/preflight_reports/preflight_report_cube.csv
+[2026-06-22 00:49:41] Сохранена конфигурация эксперимента: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/configs/config_cube.json
+[2026-06-22 00:50:20] Сохранен полный pre-flight отчет: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/preflight_reports/preflight_report_cube.csv
+[2026-06-22 00:50:20] Начат эксперимент для объекта cube; preflight=/Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/preflight_reports/preflight_report_cube.csv
+[2026-06-22 00:50:20] SAC начинает обучение с нуля
+[2026-06-22 11:03:24] SAC обучен/дообучен за 14247.056 сек.; модель сохранена: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/checkpoints/sac_ur10e_dg5f_cube.zip
+[2026-06-22 11:07:15] PPO начинает обучение с нуля
+[2026-06-22 17:32:12] PPO обучен/дообучен за 10473.177 сек.; модель сохранена: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/checkpoints/ppo_ur10e_dg5f_cube.zip
+[2026-06-22 17:35:37] Сохранена итоговая таблица метрик: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/results/sac_vs_ppo_metrics_ur10e_dg5f.csv
+[2026-06-22 17:35:37] Сохранена конфигурация эксперимента: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/configs/last_experiment_config.json
+[2026-06-22 17:35:37] Сохранен текстовый отчет метрик: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/logs/metrics_summary.txt
+[2026-06-22 17:35:38] Сохранены графики метрик: 8 файлов
+[2026-06-23 02:10:24] Сохранен полный pre-flight отчет: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/preflight_reports/preflight_report_cube.csv
+[2026-06-23 02:10:50] Сохранен полный pre-flight отчет: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/preflight_reports/preflight_report_cube.csv
+[2026-06-23 02:11:16] Сохранен полный pre-flight отчет: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/preflight_reports/preflight_report_cylinder.csv
+[2026-06-23 02:11:42] Сохранен полный pre-flight отчет: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/preflight_reports/preflight_report_sphere.csv
+[2026-06-23 02:13:00] Сохранен полный pre-flight отчет: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/preflight_reports/preflight_report_cylinder.csv
+[2026-06-23 02:13:04] Сохранена конфигурация эксперимента: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/configs/config_cylinder.json
+[2026-06-23 02:13:30] Сохранен полный pre-flight отчет: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/preflight_reports/preflight_report_cylinder.csv
+[2026-06-23 02:13:30] Начат эксперимент для объекта cylinder; preflight=/Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/preflight_reports/preflight_report_cylinder.csv
+[2026-06-23 02:13:30] SAC начинает обучение с нуля
+[2026-06-23 02:13:33] SAC обучен/дообучен за 3.190 сек.; модель сохранена: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/checkpoints/sac_ur10e_dg5f_cylinder.zip
+[2026-06-23 02:14:04] PPO начинает обучение с нуля
+[2026-06-23 02:15:12] PPO обучен/дообучен за 68.283 сек.; модель сохранена: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/checkpoints/ppo_ur10e_dg5f_cylinder.zip
+[2026-06-23 02:15:44] Сохранена итоговая таблица метрик: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/results/sac_vs_ppo_metrics_ur10e_dg5f.csv
+[2026-06-23 02:15:44] Сохранена конфигурация эксперимента: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/configs/last_experiment_config.json
+[2026-06-23 02:15:44] Сохранен текстовый отчет метрик: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/logs/metrics_summary.txt
+[2026-06-23 02:15:44] Сохранены графики метрик: 8 файлов
+[2026-06-23 02:18:56] Сохранен полный pre-flight отчет: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/preflight_reports/preflight_report_cylinder.csv
+[2026-06-23 02:19:01] Сохранена конфигурация эксперимента: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/configs/config_cylinder.json
+[2026-06-23 02:19:36] Сохранен полный pre-flight отчет: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/preflight_reports/preflight_report_cylinder.csv
+[2026-06-23 02:19:36] Начат эксперимент для объекта cylinder; preflight=/Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/preflight_reports/preflight_report_cylinder.csv
+[2026-06-23 02:19:36] SAC начинает обучение с нуля
+[2026-06-23 13:18:20] SAC обучен/дообучен за 17389.842 сек.; модель сохранена: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/checkpoints/sac_ur10e_dg5f_cylinder.zip
+[2026-06-23 13:23:02] PPO начинает обучение с нуля
+[2026-06-23 16:48:01] PPO обучен/дообучен за 10868.232 сек.; модель сохранена: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/checkpoints/ppo_ur10e_dg5f_cylinder.zip
+[2026-06-23 16:48:24] Сохранена итоговая таблица метрик: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/results/sac_vs_ppo_metrics_ur10e_dg5f.csv
+[2026-06-23 16:48:24] Сохранена конфигурация эксперимента: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/configs/last_experiment_config.json
+[2026-06-23 16:48:24] Сохранен текстовый отчет метрик: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/logs/metrics_summary.txt
+[2026-06-23 16:48:24] Сохранены графики метрик: 8 файлов

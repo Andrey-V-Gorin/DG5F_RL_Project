@@ -1,0 +1,36 @@
+Pre-flight диагностика UR10e + DG-5F RL Project
+Object shape: sphere
+Project root: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project
+Tesollo root: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/tesollo_dg5f_mujoco-main
+
+[OK] project_root_exists: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project
+[OK] tesollo_root_exists: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/tesollo_dg5f_mujoco-main
+[OK] main_script_exists: train_dg5f_ur10e_resnet18_sac_ppo.py
+[OK] scene_dg_exists: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/tesollo_dg5f_mujoco-main/robot/scene_dg.xml
+[OK] dg5f_xml_exists: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/tesollo_dg5f_mujoco-main/robot/dg5f_right.xml
+[OK] ur10e_dg5f_xml_exists: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/tesollo_dg5f_mujoco-main/robot/ur10edg5f.xml
+[OK] import_torch: 2.12.1
+[OK] import_torchvision: 0.27.1
+[OK] import_gymnasium: 1.3.0
+[OK] import_mujoco: 3.9.0
+[OK] import_stable_baselines3: 2.9.0
+[OK] import_pinocchio: 4.0.0
+[OK] import_project_module: ExperimentConfig, UR10EDG5FGraspEnv, make_grasp_scene_xml доступны
+[OK] generated_scene_exists: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/generated_scenes/scene_ur10e_dg5f_sphere.xml
+[OK] env_created: Среда UR10e + DG-5F создана
+[OK] action_space_exists: Box(-1.0, 1.0, (26,), float32)
+[OK] observation_space_exists: Box(-inf, inf, (580,), float32)
+[OK] reset_environment: obs_shape=(580,)
+[OK] one_step_works: {'reward': -107.14973941929881, 'terminated': False, 'truncated': False, 'obs_shape': (580,)}
+[OK] env_basic_check: reset() и step() выполнены
+[OK] object_not_too_far: {'object_pos': [-0.15250919762305273, -0.5409857138718017, 0.2], 'ee_pos': [0.10038431036148249, -0.49746904611528, 0.34389067066231055], 'initial_distance': 0.2941995102936189, 'threshold': 0.35}
+[OK] camera_returns_nonempty_image: {'front': {'shape': (360, 480, 3), 'std': 83.15385813279707, 'nonempty': True}, 'palm': {'shape': (360, 480, 3), 'std': 88.139004762288, 'nonempty': True}}
+[OK] save_camera_snapshots: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/figures
+[OK] action_space_exists: {'shape': (26,), 'low_min': -1.0, 'low_max': -1.0, 'high_min': 1.0, 'high_max': 1.0}
+[OK] action_changes_joint_positions: {'changes': [2.548077495139509, 2.5638873669505657, 2.6565483916682435], 'max_qpos_delta': 2.6565483916682435}
+[OK] action_not_explosive: {'changes': [2.548077495139509, 2.5638873669505657, 2.6565483916682435], 'max_qpos_delta': 2.6565483916682435}
+[OK] reward_is_not_constant: {'reward_min': -107.20660490455381, 'reward_max': 0.27722858265765404, 'reward_std': 16.10437222384001}
+[OK] reward_plot_saved: /Users/andreygorin/Documents/Институт/МАИ/ВКР/Код/DG5F_RL_Project/figures/preflight_reward_trace_sphere.png
+[OK] contact_diagnostics_available: {'max_contact_count': 0.0, 'max_bad_contact_count': 0.0, 'any_object_escaped': False, 'max_finger_hyperextension': 7.662814670039744}
+[WARN] contact_can_be_detected_under_scripted_actions: [('low', 0.0, -0.012262499999999982, -16.808423100029717), ('high', 0.0, -0.012262499999999982, -5.648910631049733), ('mid', 0.0, -0.012262499999999982, -5.119425725359809)]
+[OK] success_logic_can_return_true: {'reward': 550.9099510293619, 'info': {'success': True, 'tracking_error': 0.0, 'contact_count': 2.0, 'contact': True, 'contact_flags': array([1., 1., 0., 0., 0.], dtype=float32), 'object_lift': 0.04500000000000001, 'object_z': 0.24500000000000002, 'object_xy_shift': 0.009356998830424327, 'object_escaped': False, 'bad_contact': False, 'bad_contact_count': 0.0, 'bad_contact_geoms': [], 'penalize_bad_contact': False, 'palm_contact': False, 'useful_grasp_progress': True, 'finger_hyperextension': 0.0, 'finger_hyperextension_penalty': 0.0, 'finger_qpos_min': 0.0, 'finger_qpos_max': 0.0, 'previous_tracking_error': 0.2941995102936189, 'tracking_error_delta': 0.2941995102936189, 'reach_reward': 29.41995102936189, 'multi_finger_contact_count': 1.0, 'multi_finger_contact_reward': 10.0, 'lift_reward': 4.500000000000001, 'hold_reward': 2.0, 'stable_grasp': True, 'stable_grasp_reward': 5.0, 'time_penalty': 0.01, 'object_was_lifted_before': False, 'object_dropped': False, 'drop_penalty': 0.0, 'action_penalty': 0.0, 'velocity_penalty': 0.0, 'ee_pos': array([-0.1525092 , -0.54098571,  0.245     ]), 'object_pos': array([-0.1525092 , -0.54098571,  0.245     ])}}

@@ -1,0 +1,15 @@
+numpy
+matplotlib
+pandas
+torch
+torchvision
+gymnasium
+mujoco
+stable-baselines3
+opencv-python
+tensorboard
+tqdm
+rich
+imageio
+pyyaml
+pin
